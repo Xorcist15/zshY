@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
-export ZSH="$HOME/.config/zsh/.oh-my-zsh"
+export ZSH="$HOME/.local/share/oh-my-zsh/.oh-my-zsh"
 export ZSH_COMPDUMP="$HOME/.cache/zsh/.zcompdump"
 export HISTFILE="$HOME/.config/zsh/.zsh_history"
 
