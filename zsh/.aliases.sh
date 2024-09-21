@@ -8,10 +8,22 @@ alias py="python3"
 alias c="clear"
 alias speedtest="speedtest-cli"
 alias q="exit"
+alias sn="shutdown now"
+
+# programs
+alias vi="nvim"
+alias looping="wine $HOME/Downloads/Looping/Looping.exe $ERROR"
+alias phpmad="sudo systemctl start httpd && firefox http://overlord/phpmyadmin $ERROR"
+
+# virtual box commands
+alias loadvb="~/github/vbscripts/loadvb.sh"
+alias unloadvb="~/github/vbscripts/unloadvb.sh"
 
 # frequently opened files
 alias cfz="$EDITOR ~/.config/zsh/.aliases.sh"
-alias cours="cd ~/BTS2 && clear && ls"
+alias cours="cd ~/github/cours && clear && ls"
+alias tasks="$EDITOR ~/github/cours/tasks"
+alias gt="cd ~/github && clear && ls"
 
 # Network commands
 alias list="clear; nmcli device wifi list"
@@ -22,6 +34,7 @@ alias show="clear; nmcli device wifi show"
 alias yt="  $BROWSER youtube.com  $ERROR"
 alias gpt=" $BROWSER chatgpt.com  $ERROR"
 alias sk="  $BROWSER suckless.org $ERROR"
+alias ak="  $BROWSER wiki.archlinux.org $ERROR"
 
 # allows opening anything through browser
 fire() {
